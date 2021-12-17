@@ -10,4 +10,4 @@ Neovim SetUp for **Windows Powershell** _created on 17/12/2021_
 
 ### Instalation:
 
-Clone this repository in ``````~/AppData/Local`````` and run ``````:PlugInstall`````` in a **.vim** file
+Clone this repository in ``````~/AppData/Local`````` and run ``````:PlugInstall`````` in a **.vim** file.  After that, move the ``.config`` folder to your **$PATH**.
