@@ -1,16 +1,13 @@
-## Neovim Windows
+## Neovim for Windows Powershell
 
-Toda la explicación se encuentra en mi canal de youtube. [Joaquin Varela ](https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A)
+Neovim SetUp for Windows Powershell created on 17/12/2021
 
-Tengo varios videos con explicaciones de instalacion y configuracion.
+### Requirements:
 
-Requisitos para instalar esto
+- Neovim
+- Git
+- Vim Plug
 
-1 Vim-Plug
+### Instalation:
 
-2 Git
-
-3 RipGrep
-
-4 nvim :)
-
+Clone this repository in ~/AppData/Local and run :PlugInstall
