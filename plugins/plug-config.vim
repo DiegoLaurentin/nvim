@@ -1,41 +1,3 @@
-"██████╗░██╗░░░░░██╗░░░██╗░██████╗░░░░░░░░█████╗░░█████╗░███╗░░██╗███████╗██╗░██████╗░
-"██╔══██╗██║░░░░░██║░░░██║██╔════╝░░░░░░░██╔══██╗██╔══██╗████╗░██║██╔════╝██║██╔════╝░
-"██████╔╝██║░░░░░██║░░░██║██║░░██╗░█████╗██║░░╚═╝██║░░██║██╔██╗██║█████╗░░██║██║░░██╗░
-"██╔═══╝░██║░░░░░██║░░░██║██║░░╚██╗╚════╝██║░░██╗██║░░██║██║╚████║██╔══╝░░██║██║░░╚██╗
-"██║░░░░░███████╗╚██████╔╝╚██████╔╝░░░░░░╚█████╔╝╚█████╔╝██║░╚███║██║░░░░░██║╚██████╔╝
-"╚═╝░░░░░╚══════╝░╚═════╝░░╚═════╝░░░░░░░░╚════╝░░╚════╝░╚═╝░░╚══╝╚═╝░░░░░╚═╝░╚═════╝░
-
-"import COC config
-source ~/AppData/Local/nvim/plugins/coc-config.vim
-
-"▄▀█ █ █▀█ █░░ █ █▄░█ █▀▀
-"█▀█ █ █▀▄ █▄▄ █ █░▀█ ██▄
-
-" enable tabline
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ''
-let g:airline#extensions#tabline#left_alt_sep = ''
-let g:airline#extensions#tabline#right_sep = ''
-let g:airline#extensions#tabline#right_alt_sep = ''
-let g:ariline_powerline_fonts = 1
-let g:ariline_theme='onedark'
-
-  if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-  endif
-
-" airline symbols
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep = ''
-let g:airline_symbols.branch = ''
-let g:airline_symbols.readonly = ''
-let g:airline_symbols.linenr = ''
-
-" Switch to your current theme
-let g:airline_theme = 'onedark'
-
 " Always show tabs
 set showtabline=2
 
@@ -45,3 +7,23 @@ let g:signify_sign_delete            = '_'
 let g:signify_sign_delete_first_line = '‾'
 let g:signify_sign_change            = '~'
 
+" NerdTree
+let NERDTreeQuitOnOpen=1
+let NerdTreeAutoDeleteBuffer = 1
+let NerdTreeMinimalUI = 1
+let NerdTreeDirArrows = 1
+let NerdTreeShowLineNumbers = 1
+
+" Rainbow Pairs
+let g:rainbow_active = 1
+
+" airline
+let g:airline_powerline_fonts = 0
+
+" kite
+let g:kite_supported_languages = ['javascript', 'python']
+
+" Coc
+autocmd FileType python let b:coc_suggest_disable = 1
+autocmd FileType javascript let b:cos_suggest_disable = 1
+autocmd FileType scss setl iskeyword+=@-@

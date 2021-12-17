@@ -1,50 +1,53 @@
 "Plugins
 call plug#begin('~/.vim/plugged')
-" Temas
+
+" Syntax
+	Plug 'sheerun/vim-polyglot'						" Syntax support for multiple languaje 
+	Plug 'pangloss/vim-javascript'				" JavaScript Support
+	Plug 'leafgarland/typescript-vim'			" TypeScript Syntax
+	Plug 'vim-python/python-syntax'				" Python Syntax
+
+" Status Bar
+	Plug 'vim-airline/vim-airline'				
+	Plug 'vim-airline/vim-airline-themes'
+
 " Themes
-Plug 'morhetz/gruvbox'
-Plug 'shinchu/lightline-gruvbox.vim'
-Plug 'sheerun/vim-polyglot'
-Plug 'joshdick/onedark.vim'
-Plug 'safv12/andromeda.vim'
-Plug 'ghifarit53/tokyonight-vim'
+	Plug 'joshdick/onedark.vim'
+	Plug 'overcache/NeoSolarized'
 
-" "IDE
-Plug 'easymotion/vim-easymotion'
-"Navigate with C-h C-l C-j C-k
-"Navegar con C-h C-l C-j C-k
-Plug 'christoomey/vim-tmux-navigator'
-"NERDTREE
-Plug 'preservim/nerdtree'
-Plug 'ryanoasis/vim-devicons'
+" Tree
+	Plug 'scrooloose/nerdtree'
+  Plug 'scrooloose/nerdcommenter/'
+	Plug 'Xuyuanp/nerdtree-git-plugin'
 
-"ChadTree (Nerdtree Alternative )
-"
-"Airline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-" Stable version of coc
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"Close pairs () [] {} ''
-"Cerrar los pares () [] {} '' 
-Plug 'jiangmiao/auto-pairs'
-Plug 'alvan/vim-closetag'
-"FZF
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim',
-"colorizer plugin for #fe4918
-Plug 'norcalli/nvim-colorizer.lua'
-"Multiple cursor like in vscode
-Plug 'terryma/vim-multiple-cursors'
-"Have the indent lines 
-Plug 'yggdroot/indentline'
-"Git Integration ______________
-Plug 'mhinz/vim-signify'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
-Plug 'junegunn/gv.vim'
-"Smooth Scrolling
-Plug 'psliwka/vim-smoothie'
+" Telescope
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim' 
+
+" Typing
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'alvan/vim-closetag'
+	Plug 'tpope/vim-surround'
+
+" Tmux
+	Plug 'easymotion/vim-easymotion'
+	Plug 'christoomey/vim-tmux-navigator'
+
+" autocomplete
+	Plug 'benmills/vimux' 
+ 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" IDE 
+ 	Plug 'yggdroot/indentline'
+ 	Plug 'frazrepo/vim-rainbow'
+	Plug 'airblade/vim-gitgutter'
+	Plug 'terryma/vim-multiple-cursors'
+	Plug 'mattn/emmet-vim'
+	Plug 'ryanoasis/vim-devicons'
+	
+	" CSS
+	Plug 'ap/vim-css-color'
+	Plug 'skammer/vim-css-color'
 
 
 "_____________________________
