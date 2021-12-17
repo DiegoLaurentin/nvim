@@ -1,19 +1,23 @@
 "---------------------------------vim config---------------------------- 
 
-syntax on 
-set number 
-set mouse=a
+syntax on 									" Permite la sintaxis
+set number 									" Muestra los numeros de las lineas
+set mouse=a									" Permite la integracion del mouse
+set numberwidth=1		
 set clipboard=unnamed
 set showcmd
 set ruler
 set encoding=UTF-8
 set showmatch
 set sw=2
+set nowrap									" No divide la linea si es muy larga
 set noshowmode
 set noswapfile
-set cursorline
+set cursorline							" Resalta la linea actual
 set relativenumber
+
 let mapleader = " "
+
 set laststatus=2
 set backspace=2
 set guioptions-=T
