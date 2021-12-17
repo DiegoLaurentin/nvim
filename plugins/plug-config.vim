@@ -27,3 +27,8 @@ let g:kite_supported_languages = ['javascript', 'python']
 autocmd FileType python let b:coc_suggest_disable = 1
 autocmd FileType javascript let b:cos_suggest_disable = 1
 autocmd FileType scss setl iskeyword+=@-@
+
+" TMUX
+if !executable('tmux')
+  let g:loaded_vimux = 1
+endif

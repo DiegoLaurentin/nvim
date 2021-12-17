@@ -1,6 +1,6 @@
 ## Neovim for Windows Powershell
 
-Neovim SetUp for Windows Powershell created on 17/12/2021
+Neovim SetUp for **Windows Powershell** _created on 17/12/2021_
 
 ### Requirements:
 
@@ -10,4 +10,4 @@ Neovim SetUp for Windows Powershell created on 17/12/2021
 
 ### Instalation:
 
-Clone this repository in ~/AppData/Local and run :PlugInstall
+Clone this repository in ``````~/AppData/Local`````` and run ``````:PlugInstall``````
