@@ -41,3 +41,11 @@ nmap <Leader>wq :wq<CR>
 nmap <Leader>v :vsp<CR>
 nmap <Leader>n :!node .<CR>
 imap ii <Esc>
+
+" Swap Lines
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv

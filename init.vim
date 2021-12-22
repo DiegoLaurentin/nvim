@@ -1,4 +1,4 @@
-"---------------------------------vim config---------------------------- 
+"--------------------------------vim config---------------------------- 
 
 syntax on 									" Permite la sintaxis
 set number 									" Muestra los numeros de las lineas
@@ -40,7 +40,7 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js'
 " Syntax theme "{{{
 " ---------------------------------------------------------------------
 
-" true color
+"true color
 if exists("&termguicolors") && exists("&winblend")
   syntax enable
   set termguicolors
@@ -48,7 +48,7 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   set background=dark
-  " Use NeoSolarized
+  "" Use NeoSolarized
   let g:neosolarized_termtrans=1
   runtime ./colors/NeoSolarized.vim
   colorscheme NeoSolarized

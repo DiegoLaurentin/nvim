@@ -20,12 +20,12 @@ let g:rainbow_active = 1
 " airline
 let g:airline_powerline_fonts = 0
 
-" kite
-let g:kite_supported_languages = ['javascript', 'python']
+" kit
+let g:kite_supported_languages = ['python']
+"autocmd CompleteDone * if !pumvisible() | pclose | endif
 
 " Coc
 autocmd FileType python let b:coc_suggest_disable = 1
-autocmd FileType javascript let b:coc_suggest_disable = 1
 autocmd FileType scss setl iskeyword+=@-@
 
 " TMUX
