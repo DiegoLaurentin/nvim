@@ -14,9 +14,12 @@ call plug#begin('~/.vim/plugged')
 " Themes
 	Plug 'joshdick/onedark.vim'
 	Plug 'overcache/NeoSolarized'
-	Plug 'catppuccin/nvim'
+	"Plug 'catppuccin/nvim'
 	Plug 'EdenEast/nightfox.nvim'
 	Plug 'rmehri01/onenord.nvim', { 'branch': 'main' }
+	Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+	Plug 'ivanlhz/vim-electron'
+	Plug 'folke/tokyonight.nvim'
 
 " Tree
 	Plug 'scrooloose/nerdtree'
