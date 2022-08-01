@@ -1,5 +1,8 @@
 let mapleader=" "
 
+" Execute
+nmap <Leader>r :t
+
 " Easymotion
 nmap <Leader>s <Plug>(easymotion-s2)
 

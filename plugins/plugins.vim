@@ -14,12 +14,12 @@ call plug#begin('~/.vim/plugged')
 " Themes
 	Plug 'joshdick/onedark.vim'
 	Plug 'overcache/NeoSolarized'
-	"Plug 'catppuccin/nvim'
-	Plug 'EdenEast/nightfox.nvim'
 	Plug 'rmehri01/onenord.nvim', { 'branch': 'main' }
 	Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-	Plug 'ivanlhz/vim-electron'
 	Plug 'folke/tokyonight.nvim'
+	Plug 'yashguptaz/calvera-dark.nvim'
+	Plug 'marko-cerovac/material.nvim'
+	Plug 'nvim-lualine/lualine.nvim'
 
 " Tree
 	Plug 'scrooloose/nerdtree'
@@ -50,6 +50,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'terryma/vim-multiple-cursors'
 	Plug 'mattn/emmet-vim'
 	Plug 'ryanoasis/vim-devicons'
+	Plug 'kyazdani42/nvim-web-devicons'
 	
 	" CSS
 	Plug 'ap/vim-css-color'
