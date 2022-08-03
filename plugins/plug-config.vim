@@ -1,5 +1,4 @@
 " Always show tabs
-set showtabline=2
 
 "Git integration config
 let g:signify_sign_add               = '+'
@@ -19,15 +18,15 @@ let g:rainbow_active = 1
 
 " airline
 let g:airline_powerline_fonts = 1
-let g:airline_theme= 'transparent'
+"let g:airline_theme= 'transparent'
+let g:airline_theme= 'solarized'
 
 " kit
-let g:kite_supported_languages = ['python']
+"let g:kite_supported_languages = ['python']
 "autocmd CompleteDone * if !pumvisible() | pclose | endif
 
 " Coc
-autocmd FileType python let b:coc_suggest_disable = 1
-autocmd FileType scss setl iskeyword+=@-@
+autocmd FileType python let b:coc_suggest_disable = 0
 
 " TMUX
 if !executable('tmux')
@@ -79,7 +78,7 @@ let g:closetag_shortcut = '>'
 "
 let g:closetag_close_shortcut = '<leader>>'
 
-colorscheme calvera
+"colorscheme calvera
 
 " Emmet
 let g:user_emmet_leader_key='<C-Z>'
